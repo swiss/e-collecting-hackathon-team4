@@ -4,119 +4,101 @@
 
 ## Approach
 
-*A brief description of your approach, a link/reference to the detailed description of your approach and what you have already created (if applicable). Please also mention which skills you need for your team.*
+Die Schweizerische Post versteht sich seit jeher als Vertrauensinfrastruktur der Schweiz. 
+Wo früher Briefe, Zahlungen oder amtliche Dokumente physisch zugestellt wurden, übernehmen heute digitale Dienste wie SwissSign, ePost oder E-Voting diese Rolle. E-Collecting kann nur funktionieren, wenn Bürgerinnen und Bürger Vertrauen in den Prozess haben. Die Post bringt dieses Vertrauen bereits mit – durch , ihren gesetzlichen Auftrag, als Bundesnahesunternehmen und ihre Erfahrung im sicheren Informationsaustausch. Wir betrachten den gesamten Prozess – von der digitalen Unterschrift bis zur Auszählung der Unterstützungsbekundungen: 
+
+- Elektronisches Unterschreiben 
+
+- Elektronisches Sammeln 
+
+- Elektronische Prüfung 
+
+- Elektronisches Zählen 
+
+Dabei liegt unser Fokus auf einer einfachen, nachvollziehbaren und barrierefreien User Journey für alle Beteiligten – Bürgerinnen, Komitees, Gemeinden und die Bundeskanzlei. Wir wollen zeigen, wie die Post mit ihrer bestehenden Infrastruktur einen Beitrag leisten kann, damit E-Collecting in der Schweiz: sicher, transparent, rechtssicher, und für alle zugänglich umgesetzt werden kann. Und genau das wollen wir im Rahmen dieses Hackathons gemeinsam mit euch herausfinden: 
+
+- Wie könnte eine E-Collecting-Customer-Journey aussehen, die einfach, sicher und nutzerfreundlich ist? 
+
+- Welche Komponenten der Post – SwissID, E-Voting, sichere Datenübermittlung – können dazu beitragen? 
+
+- Wie schaffen wir gemeinsam eine Lösung, der die Bevölkerung wirklich vertraut? 
 
 ## Documentation and Diagrams
 
-*Together, you will contribute to comparing different ways of how to implement e-collecting in Switzerland from A to Z. As part of the [participatory process](https://www.bk.admin.ch/bk/de/home/politische-rechte/e-collecting/partizipativer_prozess.html), your solutions will be discussed in subsequent workshops and will possibly be taken into account for the official decision on the design of the federal e-collecting trials. Proper documentation is key to ensuring that your solution can be understood and evaluated:*
+<img width="1150" height="611" alt="E-Collecting Workflow" src="https://github.com/user-attachments/assets/14a0bf99-5f71-4e85-88c4-848256320e23" />
 
-1. **[Mermaid](https://mermaid.js.org/) diagram(s) showing interactions and data flows between actors, software and infrastructure components of your solution over time.**
-2. **Wireframes or mockups with user flow showing the user experience of different actors** (using e.g. Figma)
-3. Explain how you addressed the topics presented in the [guidelines](https://www.bk.admin.ch/bk/de/home/politische-rechte/e-collecting/aktuelles.html), filling in the template below.
-4. List the key strengths and weaknesses of your solution.
-5. Explanation of features used (if applicable)
-6. A requirements file with all packages and versions used (if applicable)
-7. Environment code to be run (if applicable)
 
-*For your reference, you will find below an example of two diagrams showing interactions and data flows between actors, software and infrastructure components of ordering a pizza via a third-party delivery website over time. Please replace them with diagrams for your solution.*
-
-### Flowchart: High-level Process (Example)
+### Flowchart: High-level Process (First Example)
 
 *An overall process flow showing the main steps and system/actor interactions for ordering a pizza online via a delivery website, including software, infrastructure, and handoff to the restaurant and delivery driver.*
 
 ```mermaid
 
-flowchart TD
-    Customer([Customer])
-    DeliverySite("Delivery Website (Web/App)")
-    Backend("Website Backend Server")
-    OrderDB[(Order Database)]
-    Restaurant("Restaurant Order System")
-    Driver("Delivery Driver")
-
-   Customer-->|"1 Place Order (Pizza+Details)"|DeliverySite
-   DeliverySite-->|"2 Send Order Data"|Backend
-   Backend-->|"3 Store Order"|OrderDB
-   Backend-->|"4 Send Order to Restaurant"|Restaurant
-   Restaurant-->|"5 Ack/Confirmation"|Backend
-   Backend-->|"6 Confirmation & ETA"|DeliverySite
-   DeliverySite-->|"7 Show Confirmation"|Customer
-   Restaurant-->|"8 Assign/Notify Delivery"|Driver
-   Driver-->|"9 Pickup & Deliver"|Customer
-   Driver-->|"10 Update Status"|DeliverySite
-   DeliverySite-->|"11 Show Status"|Customer
-
-```
-
-### Sequence Diagram: Detailed Interactions & Data Flows (Example)
-
-*A step-by-step illustration showing how data and requests are exchanged between actors (customer, delivery site, restaurant, infrastructure), and key software components in the order process.*
-
-```mermaid
-
-sequenceDiagram
-    actor Customer
-    participant WebApp as "Delivery Website (UI)"
-    participant Backend as "Backend Server"
-    participant DB as "Order Database"
-    participant Restaurant as "Restaurant System"
-    actor Driver as "Delivery Driver"
-
-    Customer->>WebApp: Browse menu, select pizza (menu data)
-    Customer->>WebApp: Submit order (pizza, address, payment info)
-    WebApp->>Backend: Create order {pizza, address, payment}
-    Backend->>DB: Save order {orderId, customer, items, payment}
-    Backend->>Restaurant: API: send order {orderId, items, address}
-    Restaurant-->>Backend: Ack/Confirmation {orderId, ETA}
-    Backend-->>WebApp: Show confirmation {orderId, ETA}
-    WebApp-->>Customer: Order confirmation {orderId, ETA}
-    Restaurant->>Driver: Notify driver {pickup, delivery}
-    Driver-->>Restaurant: Pickup ack
-    Driver->>Customer: Deliver pizza
-    Driver->>Backend: Update status {orderId, delivered}
-    Backend->>WebApp: Status update {delivered}
-    WebApp->>Customer: Show status {delivered}
+flowchart TB
+ subgraph B1["Bürger:innen"]
+        B1_1["Lancieren"]
+        B1_2["Initiative unterstützen"]
+  end
+ subgraph B2["Komitee"]
+        B2_1["Erarbeiten Initiative"]
+        B2_2["Initiative erfassen"]
+        B2_3["Initiative teilen"]
+        B2_4["Einreichung auslösen"]
+  end
+ subgraph B3["E-Collecting System"]
+        B3_1["Unterschriftsbogen erstellen"]
+        B3_2["Unterschriftsbogen ablegen"]
+        B3_3["Bescheinigung koordinieren"]
+        B3_4["Initiative einreichen"]
+  end
+ subgraph B4["Unterschrif System"]
+        B4_1["Unterschriftsbogen signieren"]
+  end
+ subgraph B5["Amtsstelle"]
+        B5_1["Stimmrecht bescheinigen"]
+  end
+ subgraph B6["Bundeskanzelei"]
+        B6_1["Initiative vorprüfen"]
+        B6_2["Empfang bestätigen"]
+        B6_3["Zustandekommen feststellen & publizieren"]
+  end
+    B1_1 --> B2_1
+    B2_1 --> B2_2
+    B2_2 --> B2_3
+    B2_3 --> B1_2
+    B1_2 --> B3_1
+    B3_1 --> B4_1
+    B4_1 --> B3_2
+    B3_2 --> B3_3
+    B3_3 --> B5_1
+    B5_1 --> B6_1
+    B2_4 --> B3_4
+    B3_4 --> B6_2
+    B6_2 --> B6_3
+    B2_3--> B2_4
 
 ```
-
-## User Experience
-
-*Add or reference wireframes or mockups with user flow showing the user experience of different actors.*
 
 ## Topics addressed
 
-*Explain how you addressed the topics presented in the [guidelines](https://www.bk.admin.ch/bk/de/home/politische-rechte/e-collecting/aktuelles.html), filling in the template below.*
-
 | Topic | (How) is it addressed? |
 | -| ------- |
-| 1 |  |
-| 2 |  |
-| 3 |  |
-| ... |  |
+| 1 | *Vom Unterstützungswillen zur Unterstützungsbekundung* <br> Mit dem Lösungsansatz wollen wir eine User-Journey erarbeiten für einen nationalen E-Collecting Ansatz.|
+| 2 | *Zugang zu aktuellen Informationen über die eingereichten Unterstützungsbekundungen* <br> Hier könnten die Capabilities von ePost genutzt werden. |
+| 3 | *Zuschreibung der Unterstützungsbekundungen an Komitees und Sammelunternehmen* <br> Hier könnten die Capabilities von ePost genutzt werden. |
+| 4 | *Unterbreitung von Argumenten der Komitees via E-Collecting* <br> Hier könnten die Capabilities von ePost genutzt werden.|
+| 5 | *Ausschluss unrechtmässiger Unterstützungsbekundungen* <br> Hier kann das Know How von E-Voting genutzt werden.|
+| 6 | *Verhinderung unterschlagener Unterstützungsbekundungen* <br> Hier kann das Know How von E-Voting genutzt werden.|
+| 7 | *Wahrung des Stimmgeheimnisses* <br> Gemeinsam definieren welche Stufe E-Collecting erreichen sollte. Hier kann das Know How von E-Voting genutzt werden.|
+| 8 | *Integration mit dem papierbasierten Prozess* <br> Gemeinsam definieren welche Stufe E-Collecting erreichen sollte. Hier kann das Know How von E-Voting genutzt werden.|
+| 9 | *Erleichterte Einführung für Gemeinden mit Effizienzgewinn; auf der Grundlage von bestehender Infrastruktur und bestehenden Prozessen* <br> Hier kann das Know How von E-Voting genutzt werden.|
 
 ## Key Strenghts and Weaknesses
 
-*List the key strengths and weaknesses of your solution.*
-
 ### Strengths:
-- ...
-- ...
-
-### Weaknesses:
-- ...
-- ...
-
-## Getting Started
-
-*These instructions will get you a copy of the technical prototype (if applicable) up and running on your local machine for development and testing purposes. **If you are not developing a technical prototype, please present or reference your conceptual and/or clickable prototype.***
-
-### Prerequisites
-
-*What things you need to install the software and how to install them.*
-
-### Installation
-
-*A step by step series of examples that tell you how to get a development env running.*
+- Know How aus E-Voting 
+- Capabilities der sicheren Zustellung mit ePost
+- Capabilities bezüglich Unterschriften mit SwissSign
 
 ## Contributing
 
@@ -124,10 +106,11 @@ Please read [CONTRIBUTING.md](/CONTRIBUTING.md) for details on our code of condu
 
 ## Team Members
 
-- Amina Bouzar/GitHub Account (role)
-- Name/GitHub Account (role)
-- Name/GitHub Account (role)
-- ...
+- Amina Bouzar (Business Expert)
+- Jörg Scchorr (E-Voting Expert)
+- Audhilde Hoegaasen (E-Voting Expert)
+- Marcel Eichmüller (SwissSign Expert)
+- And you?
 
 ## License
 
