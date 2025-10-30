@@ -1,28 +1,32 @@
-# 4) E-Collecting Customer Journey unter Nutzung der Capabilities der Schweizerischen Post
+# 4) E-Collecting User Journey mit Nutzung der Erfahrung von SwissSign, ePost und E-Voting
 
 *Over the course of two days, you will develop your solution for collecting electronic signatures for popular initiatives and referendums from A to Z, addressing the 10 topics outlined in the [guidelines](https://www.bk.admin.ch/bk/de/home/politische-rechte/e-collecting/aktuelles.html). Your prototype can be conceptual, clickable, and/or technical. Either way, you should clearly present the interactions and data flows between actors, software, and infrastructure components over time, as well as the user experience of these actors.*
 
 ## Approach
 
-Die Schweizerische Post versteht sich seit jeher als Vertrauensinfrastruktur der Schweiz. 
-Wo früher Briefe, Zahlungen oder amtliche Dokumente physisch zugestellt wurden, übernehmen heute digitale Dienste wie SwissSign, ePost oder E-Voting diese Rolle. E-Collecting kann nur funktionieren, wenn Bürgerinnen und Bürger Vertrauen in den Prozess haben. Die Post bringt dieses Vertrauen bereits mit – durch , ihren gesetzlichen Auftrag, als Bundesnahesunternehmen und ihre Erfahrung im sicheren Informationsaustausch. Wir betrachten den gesamten Prozess – von der digitalen Unterschrift bis zur Auszählung der Unterstützungsbekundungen: 
+Die Schweizerische Post versteht sich seit jeher eine der Vertrauensinfrastruktur der Schweiz. 
 
-- Elektronisches Unterschreiben 
+Wo früher Briefe, Zahlungen oder amtliche Dokumente physisch zugestellt wurden, übernehmen heute digitale Dienste wie  
 
+- SwissSign, - stellt digitale Zertifikate und Signaturen bereit 
+- ePost – ist der digitale Briefkasten der Schweiz oder  
+- E-Voting – elektronische Stimmabgebe  
+
+ diese Rolle.  
+
+E-Collecting kann nur funktionieren, wenn Bürgerinnen und Bürger Vertrauen in den Prozess haben. Die Post bringt dieses Vertrauen mit – durch, ihren gesetzlichen Auftrag, als Bundesnahesunternehmen und ihre Erfahrung im sicheren Informationsaustausch. Wir betrachten den gesamten Prozess – von der digitalen Unterstützungsbeurkundung bis zur Auszählung der Unterstützungsbekundungen: 
+
+- Elektronisches Unterstützungsbeurkundung 
 - Elektronisches Sammeln 
-
-- Elektronische Prüfung 
-
+- Elektronische Prüfung
 - Elektronisches Zählen 
 
-Dabei liegt unser Fokus auf einer einfachen, nachvollziehbaren und barrierefreien User Journey für alle Beteiligten – Bürgerinnen, Komitees, Gemeinden und die Bundeskanzlei. Wir wollen zeigen, wie die Post mit ihrer bestehenden Infrastruktur einen Beitrag leisten kann, damit E-Collecting in der Schweiz: sicher, transparent, rechtssicher, und für alle zugänglich umgesetzt werden kann. Und genau das wollen wir im Rahmen dieses Hackathons gemeinsam mit euch herausfinden: 
+Dabei liegt unser Fokus auf einer einfachen, nachvollziehbaren und barrierefreien User Journey für alle Beteiligten – Bürgerinnen, Komitees, Gemeinden & Kantone und die Bundeskanzlei. Vorschlag: E-Collecting in der Schweiz sollte sicher, transparent und für alle zugänglich sein. Im Rahmen dieses Hackathons wollen wir mit euch gemeinsam herausfinden: 
 
-- Wie könnte eine E-Collecting-Customer-Journey aussehen, die einfach, sicher und nutzerfreundlich ist? 
+- Wie könnte eine E-Collecting-Customer-Journey aussehen, die sicher und nutzerfreundlich ist, und die das Vertrauen der Bevölkerung gewinnt? 
+- Wie können wir eine praktikable Lösung finden, die Teilnahmegeheimnis und Verifizierbarkeit gewährleistet? Können wir die Erfahrungen der Post aus Projekten wie SwissSign, E-Voting und ePost nutzen, um eine solche Lösung zu finden? 
 
-- Welche Komponenten der Post – SwissID, E-Voting, sichere Datenübermittlung – können dazu beitragen? 
-
-- Wie schaffen wir gemeinsam eine Lösung, der die Bevölkerung wirklich vertraut? 
-
+  
 ## Documentation and Diagrams
 
 <img width="1150" height="611" alt="E-Collecting Workflow" src="https://github.com/user-attachments/assets/14a0bf99-5f71-4e85-88c4-848256320e23" />
