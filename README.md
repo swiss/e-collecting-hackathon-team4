@@ -113,7 +113,11 @@ Please read [CONTRIBUTING.md](/CONTRIBUTING.md) for details on our code of condu
 - Amina Bouzar (Business Expert)
 - Jörg Scchorr (E-Voting Expert)
 - Marcel Eichmüller (SwissSign Expert)
-- And you?
+- Roman Riesen
+- Leonardo Moretti
+- Lukas Erni
+- Audhilde Hoegaasen
+- Florian Moser
 
 ## License
 
