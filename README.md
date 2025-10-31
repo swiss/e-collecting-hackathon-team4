@@ -29,8 +29,6 @@ Dabei liegt unser Fokus auf einer einfachen, nachvollziehbaren und barrierefreie
   
 ## Documentation and Diagrams
 
-<img width="1150" height="611" alt="E-Collecting Workflow" src="https://github.com/user-attachments/assets/14a0bf99-5f71-4e85-88c4-848256320e23" />
-
 
 ### Flowchart: High-level Process (First Example)
 
@@ -40,46 +38,42 @@ Dabei liegt unser Fokus auf einer einfachen, nachvollziehbaren und barrierefreie
 
 flowchart TB
  subgraph B1["Bürger:innen"]
-        B1_1["Lancieren"]
-        B1_2["Initiative unterstützen"]
+        B1_1["Erhalt Direktlink zur Initiative"]
+        B1_2["Authentifizierung & einlogen"]
+        B1_3["Unterstützungsbeurkundung"]
   end
  subgraph B2["Komitee"]
         B2_1["Erarbeiten Initiative"]
         B2_2["Initiative erfassen"]
         B2_3["Initiative teilen"]
-        B2_4["Einreichung auslösen"]
   end
  subgraph B3["E-Collecting System"]
-        B3_1["Unterschriftsbogen erstellen"]
-        B3_2["Unterschriftsbogen ablegen"]
-        B3_3["Bescheinigung koordinieren"]
-        B3_4["Initiative einreichen"]
-  end
- subgraph B4["Unterschrif System"]
-        B4_1["Unterschriftsbogen signieren"]
-  end
- subgraph B5["Amtsstelle"]
-        B5_1["Stimmrecht bescheinigen"]
+        B3_1["Initiative erfasst"]
+        B3_2["Freigegebene Initiative"]
+        B3_3["Unterstützungsbeurkundung"]
   end
  subgraph B6["Bundeskanzelei"]
-        B6_1["Initiative vorprüfen"]
-        B6_2["Empfang bestätigen"]
-        B6_3["Zustandekommen feststellen & publizieren"]
+        B6_1["Initiative prüfen"]
+        B6_2["Initiative freigeben"]
   end
-    B1_1 --> B2_1
+ subgraph B7["Gemeinde"]
+        B7_1["Stimmregister"]
+        B7_2["Unterstützungsbeurkundung"]
+  end
     B2_1 --> B2_2
-    B2_2 --> B2_3
-    B2_3 --> B1_2
-    B1_2 --> B3_1
-    B3_1 --> B4_1
-    B4_1 --> B3_2
-    B3_2 --> B3_3
-    B3_3 --> B5_1
-    B5_1 --> B6_1
-    B2_4 --> B3_4
-    B3_4 --> B6_2
-    B6_2 --> B6_3
-    B2_3--> B2_4
+    B2_2 --> B3_1
+    B3_1 --> B6_1
+    B6_1 --> B6_2
+    B6_2 --> B3_2
+    B3_2 --> B2_3 & B1_3
+    B2_3 --> B1_1
+    B1_1 --> B1_2
+    B1_2 --> B3_2
+    B1_3 --> B3_3
+    B3_3 -- Abgleich --> B7_1
+    B7_1 --> B7_2
+    B7_2 -->|Bescheinigung| B3_3
+    B3_3 --> |Benachrichtigung| B1_3
 
 ```
 
@@ -110,15 +104,14 @@ Please read [CONTRIBUTING.md](/CONTRIBUTING.md) for details on our code of condu
 
 ## Team Members
 
-- Amina Bouzar (Business Expert)
-- Jörg Scchorr (E-Voting Expert)
-- Marcel Eichmüller (SwissSign Expert)
+- Amina Bouzar
+- Jörg Scchorr
+- Marcel Eichmüller
 - Roman Riesen
 - Leonardo Moretti
 - Lukas Erni
 - Audhilde Hoegaasen
 - Florian Moser
 
-## License
 
 This software is licensed under a AGPL 3.0 License - see the [LICENSE](LICENSE) file for details. Please feel free to [choose any other](https://choosealicense.com/) [Open Source Initiative approved license](https://opensource.org/licenses) (e.g. a permissive license such as [MIT](https://opensource.org/license/mit)). Other content (e.g. text, images, etc.) is licensed under a [Creative Commons CC BY-SA 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/deed.de). Exceptions are possible in consultation with the organizers.
