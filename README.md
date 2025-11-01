@@ -135,6 +135,7 @@ flowchart TD
     G --> Gem[fa:fa-envelope Senden an Gemeinde via Post App]
     Gem --> E((Ende))
 ```
+[Präsentation.pdf](https://github.com/user-attachments/files/23283506/Prasentation.pdf)
 
 Unser Ansatz fügt sich in bisherige Strukturen auf allen Verwaltungsebenen ein, für Verwaltungen und EKS Hersteller ändert sich nur so viel wie sie wollen.
 
