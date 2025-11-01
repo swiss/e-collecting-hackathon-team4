@@ -131,7 +131,7 @@ flowchart TD
 - Stimmbürger:in erhält eine Bestätigung
 - Fraud bekämpfung zu Doppelunterschriften
 - Integration E-ID ist möglich
-- Initiativen-Komitee hat eine aktuellere Übersicht
+- Komitees haben eine aktuellere Übersicht
 
 #### Nachteil 
 - Die Gemeinde muss an die ePost angebunden sein
