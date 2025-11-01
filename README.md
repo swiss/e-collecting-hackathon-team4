@@ -80,7 +80,7 @@ Please read [CONTRIBUTING.md](/CONTRIBUTING.md) for details on our code of condu
 ## Finale Abschlusspräsentation 
 
 ### Recap & Herausforderungen 
-Wir sind mit den Erfahrungen aus dem Bereichen ePost, SwissSign, E-Voting und 4 neuen Gspänlis zusammengekommen und haben uns überlegt wie ein möglicher Lösungsansatz für E-Collecting aussehen kann. In einem ersten Schritt haben wir uns auf die wertvolle Expertise E-Voting Team gestützt aus der Kryptographie, mit dem Ziel ein Lösungsansatz zu finden für E-Collecting mit einem möglichst hohen Stimmgeheiniss, aber einer einfachen Lösung. Wir haben das Thema sehr spannend gefunden, aber beschlossen dies Thema  nicht im Hackathon weiterzuverfpolgen. So sind wir zum jetzigen Lösungsansatz gekommen, wie ein möglicher Lösungsansatz für E-Collecting sein könnte. Dahinter ist viel mehr, wir zeigen euch jetzt einfach ein Snippet aus dem Big Picture, damit ihr seht was wir meinen. 
+Wir sind mit den Erfahrungen aus dem Bereichen ePost, SwissSign, E-Voting und 4 neuen Gspänlis zusammengekommen und haben uns überlegt wie ein möglicher Lösungsansatz für E-Collecting aussehen kann. In einem ersten Schritt haben wir uns auf die wertvolle Expertise E-Voting Team gestützt aus der Kryptographie, mit dem Ziel ein Lösungsansatz zu finden für E-Collecting mit einem möglichst hohen Stimmgeheiniss, aber einer einfachen Lösung. Wir haben das Thema sehr spannend gefunden, aber beschlossen dies Thema  nicht im Hackathon weiterzuverfolgen. So sind wir zum jetzigen Lösungsansatz gekommen, ein möglicher Lösungsansatz für E-Collecting. Dahinter ist viel mehr, wir zeigen euch jetzt einfach ein Ausschnitt aus dem Big Picture, damit ihr seht was wir meinen. 
 
 ### Prototyp / Demo 
 #### Grundkonzept
@@ -135,9 +135,21 @@ flowchart TD
     G --> Gem[fa:fa-envelope Senden an Gemeinde via Post App]
     Gem --> E((Ende))
 ```
-[Präsentation.pdf](https://github.com/user-attachments/files/23283506/Prasentation.pdf)
+![38d38596-11c5-487e-88eb-dad445074d2b-0](https://github.com/user-attachments/assets/871643f0-f1a3-411d-a4be-d88e229129f8)
+![38d38596-11c5-487e-88eb-dad445074d2b-1](https://github.com/user-attachments/assets/c82b0914-7f34-426a-b74f-dfdfd666cd8e)
+![38d38596-11c5-487e-88eb-dad445074d2b-2](https://github.com/user-attachments/assets/fb51c188-de5e-4110-a27f-5a07aa60b259)
+![38d38596-11c5-487e-88eb-dad445074d2b-3](https://github.com/user-attachments/assets/c2f3f02c-ee89-4d62-b642-bb62f1a52cb2)
+![38d38596-11c5-487e-88eb-dad445074d2b-4](https://github.com/user-attachments/assets/41736768-92aa-44ff-95e8-92ed57ea174b)
+![38d38596-11c5-487e-88eb-dad445074d2b-5](https://github.com/user-attachments/assets/de8c22f1-fdbe-49b0-8b4c-5d161064061c)
+![38d38596-11c5-487e-88eb-dad445074d2b-6](https://github.com/user-attachments/assets/e7d59aa1-631f-46a0-ad9f-7795ff6a6f76)
+![38d38596-11c5-487e-88eb-dad445074d2b-7](https://github.com/user-attachments/assets/26c350fc-494f-4cf3-9ad0-21c31c73eaed)
+![38d38596-11c5-487e-88eb-dad445074d2b-8](https://github.com/user-attachments/assets/ce6eeec2-b0d6-4be3-bb05-d881548dbafa)
+![38d38596-11c5-487e-88eb-dad445074d2b-9](https://github.com/user-attachments/assets/09c9aca7-7b09-4b43-995a-17c3bd0bbd93)
+![38d38596-11c5-487e-88eb-dad445074d2b-10](https://github.com/user-attachments/assets/c271edbd-36ce-490a-8fae-d916ec702891)
+![38d38596-11c5-487e-88eb-dad445074d2b-11](https://github.com/user-attachments/assets/061f77f5-0fe9-4e97-882b-fd5ae19c7d49)
+![38d38596-11c5-487e-88eb-dad445074d2b-12](https://github.com/user-attachments/assets/e6364aa0-d1e4-424f-b4c1-b68d8230659a)
 
-<object data="https://github.com/user-attachments/files/23283506/Prasentation.pdf" width="1000" height="1000" type='application/pdf'/> 
+
 
 Unser Ansatz fügt sich in bisherige Strukturen auf allen Verwaltungsebenen ein, für Verwaltungen und EKS Hersteller ändert sich nur so viel wie sie wollen.
 
