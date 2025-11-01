@@ -34,10 +34,6 @@ Dabei liegt unser Fokus auf einer einfachen, nachvollziehbaren und barrierefreie
 
 *An overall process flow showing the main steps and system/actor interactions for ordering a pizza online via a delivery website, including software, infrastructure, and handoff to the restaurant and delivery driver.*
 
-<div style="width: 100%">
-<img style="height: 80vh; display: block; margin-left: auto; margin-right: auto" src="https://github.com/swiss/e-collecting-hackathon-team4/blob/main/docs/post_flow.png">
-</div>
-
 ```mermaid
 ---
 title: Overview
