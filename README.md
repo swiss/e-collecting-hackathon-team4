@@ -24,16 +24,15 @@ E-Collecting kann nur funktionieren, wenn Bürgerinnen und Bürger Vertrauen in 
 Dabei liegt unser Fokus auf einer einfachen, nachvollziehbaren und barrierefreien User Journey für alle Beteiligten – Bürgerinnen, Komitees, Gemeinden & Kantone und die Bundeskanzlei. Vorschlag: E-Collecting in der Schweiz sollte sicher, transparent und für alle zugänglich sein. Im Rahmen dieses Hackathons wollen wir mit euch gemeinsam herausfinden: 
 
 - Wie könnte eine E-Collecting-Customer-Journey aussehen, die sicher und nutzerfreundlich ist, und die das Vertrauen der Bevölkerung gewinnt? 
-- Wie können wir eine praktikable Lösung finden, die Teilnahmegeheimnis und Verifizierbarkeit gewährleistet? Können wir die Erfahrungen der Post aus Projekten wie SwissSign, E-Voting und ePost nutzen, um eine solche Lösung zu finden? 
-
+- Wie können wir eine praktikable Lösung finden, die Teilnahmegeheimnis und Verifizierbarkeit gewährleistet? Können wir die Erfahrungen der Post aus Projekten wie SwissSign, E-Voting und ePost nutzen, um eine solche Lösung zu finden?
 
 ## Topics addressed
 
 | Topic | (How) is it addressed? |
 | -| ------- |
-| 1 | *Vom Unterstützungswillen zur Unterstützungsbekundung* <br> Mit dem Lösungsansatz wollen wir eine User-Journey erarbeiten für einen nationalen E-Collecting Ansatz.|
+| 1 | *Vom Unterstützungswillen zur Unterstützungsbekundung* <br> Das Teilen eines Links - durch QR code oder per Text Nachricht - reicht.|
 | 2 | *Zugang zu aktuellen Informationen über die eingereichten Unterstützungsbekundungen* <br> Basierend auf dem EKS, durch mögliche Integration wird der Informationsfluss von Tagen zu Minuten beschleunigt |
-| 3 | *Zuschreibung der Unterstützungsbekundungen an Komitees und Sammelunternehmen* <br> Hier könnten die Capabilities von ePost genutzt werden. |
+| 3 | *Zuschreibung der Unterstützungsbekundungen an Komitees und Sammelunternehmen* <br>  |
 | 4 | *Unterbreitung von Argumenten der Komitees via E-Collecting* <br> Hier könnten die Capabilities von ePost genutzt werden.|
 | 5 | *Ausschluss unrechtmässiger Unterstützungsbekundungen* <br> Durch die Qualified Electronic Signature deutlich stärker erreicht als bisher.|
 | 6 | *Verhinderung unterschlagener Unterstützungsbekundungen* <br> Hier kann das Know How von E-Voting genutzt werden.|
@@ -142,11 +141,12 @@ flowchart TD
 
 ### Vor- & Nachteile
 #### Vorteil
-- Schnell umsetztbar, keine Anpassung von e-CH Standarts nötig
+- Schnell umsetztbar, keine Anpassung von e-CH Standarts nötig: Unser Ansatz fügt sich in bisherige Strukturen auf allen Verwaltungsebenen ein.
 - Setzt auf bereits Bestehendem: Laufende, rechtsgültige Authentifizierung als Grundlage
 - Stimmbürger:in erhält eine Bestätigung in ePost Briefkasten
 - Fraud bekämpfung zu Doppelunterschriften
 - Integration E-ID ist möglich
+- Einfach erweiterbar und in Zukünftige, komplexere Lösungen integrierbar
 - Komitees haben eine aktuellere Übersicht
 
 #### Nachteil
