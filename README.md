@@ -198,7 +198,7 @@ config:
   themeVariables:
     primaryColor: '#cc9900'
     primaryTextColor: '#fff'
-    primaryBorderColor: '#ccc'
+    primaryBorderColor: '#888'
     lineColor: '#ff0000'
     secondaryColor: '#ff0000'
     tertiaryColor: '#ff0000'
