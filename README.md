@@ -34,35 +34,6 @@ Dabei liegt unser Fokus auf einer einfachen, nachvollziehbaren und barrierefreie
 
 *An overall process flow showing the main steps and system/actor interactions for ordering a pizza online via a delivery website, including software, infrastructure, and handoff to the restaurant and delivery driver.*
 
-```mermaid
----
-title: Overview
-format: revealjs
-include-in-header: 
-  text: |
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-config:
-  theme: 'base'
-  themeVariables:
-    primaryColor: '#ffcc00'
-    primaryTextColor: '#000'
-    primaryBorderColor: '#ff0000'
-    lineColor: '#ffcc00'
-    secondaryColor: '#ccc'
-    tertiaryColor: '#000'
----
-
-flowchart TD
-    A((fa:fa-user Start)) -->|<div style="margin: 5pt;"> fa:fa-link E-Coll. Platf. Link</div>| B
-    B[fa:fa-info Initiativen-Details anzeigen] --> C{Will Unterstützen?}
-    C -->|<div style="margin: 5pt">Ja| F[/ fa:fa-location Wenn nicht gespeichert:<br>Adresse eingeben /]
-    C -->|<div style="margin: 5pt">Nein| E
-    F -->|<div style="margin: 5pt">In Post App einloggen| D[fa:fa-scroll Vorlage in Post App]
-    D --> G[/fa:fa-pen QES Unterschreiben/]
-    G --> Gem[fa:fa-envelope Senden an Gemeinde via Post App]
-    Gem --> E((Ende))
-```
-
 ## Topics addressed
 
 | Topic | (How) is it addressed? |
@@ -126,6 +97,37 @@ flowchart TD
 ```
     
 #### User Journey
+
+
+```mermaid
+---
+title: Overview Post App Flow
+format: revealjs
+include-in-header: 
+  text: |
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+config:
+  theme: 'base'
+  themeVariables:
+    primaryColor: '#ffcc00'
+    primaryTextColor: '#000'
+    primaryBorderColor: '#ff0000'
+    lineColor: '#ffcc00'
+    secondaryColor: '#ccc'
+    tertiaryColor: '#000'
+---
+
+flowchart TD
+    A((fa:fa-user Start)) -->|<div style="margin: 5pt;"> fa:fa-link E-Coll. Platf. Link</div>| B
+    B[fa:fa-info Initiativen-Details anzeigen] --> C{Will Unterstützen?}
+    C -->|<div style="margin: 5pt">Ja| F[/ fa:fa-location Wenn nicht gespeichert:<br>Adresse eingeben /]
+    C -->|<div style="margin: 5pt">Nein| E
+    F -->|<div style="margin: 5pt">In Post App einloggen| D[fa:fa-scroll Vorlage in Post App]
+    D --> G[/fa:fa-pen QES Unterschreiben/]
+    G --> Gem[fa:fa-envelope Senden an Gemeinde via Post App]
+    Gem --> E((Ende))
+```
+
 
 
 
