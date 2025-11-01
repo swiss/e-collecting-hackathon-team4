@@ -112,5 +112,23 @@ Please read [CONTRIBUTING.md](/CONTRIBUTING.md) for details on our code of condu
 - Lukas Erni
 - Audhild Høgåsen
 
+## Finale Abschlusspräsentation 
+
+### Recap & Herausforderungen 
+Wir sind mit den Erfahrungen aus dem Bereichen ePost, SwissSign, E-Voting und 4 neuen Gspänlis zusammengekommen und haben uns überlegt wie ein möglicher Lösungsansatz für E-Collecting aussehen kann. In einem ersten Schritt haben wir uns auf die wertvolle Expertise E-Voting Team gestützt aus der Kryptographie, mit dem Ziel ein Lösungsansatz zu finden für E-Collecting mit Stimmgeheiniss. Schnell haben wir aber gemerkt, dass der Ansatz sehr zukunftsoirientiert ist und eingentlich auch umsetztbar, wir aber gemerkt haben, wenn wir so etwas umsetzt wollen, es einen grossen Stein ins Rollen bringen würde. Obwohl ein Atributt eines Public Key bei der Gemeinde pro Einwohner hinzugefügt werden müsste, dass aktuell fast ein Ding der Unmöglichkeit wäre. So sind wir zur jetzigen Lösung gekommen, wie ein möglicher Lösungsansatz für E-Collecting sein könnte. Dahinter ist viel mehr, wir zeigen euch jetzt einfach ein Snippet aus dem Big Picture, damit ihr seht was wir meinen. 
+
+### Prototyp / Demo 
+
+
+
+
+### Vor- & Nachteile
+#### Vorteil
+
+#### Nachteil 
+
+
+
+## Vielen Dank an alle aus der Gruppe 4 für die hitzigen Diskussionen, das zusammen Nachdenken und das erarbeiten eines möglichen Lösungansatzes. 
 
 This software is licensed under a AGPL 3.0 License - see the [LICENSE](LICENSE) file for details. Please feel free to [choose any other](https://choosealicense.com/) [Open Source Initiative approved license](https://opensource.org/licenses) (e.g. a permissive license such as [MIT](https://opensource.org/license/mit)). Other content (e.g. text, images, etc.) is licensed under a [Creative Commons CC BY-SA 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/deed.de). Exceptions are possible in consultation with the organizers.
