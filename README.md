@@ -80,7 +80,7 @@ Please read [CONTRIBUTING.md](/CONTRIBUTING.md) for details on our code of condu
 ## Finale Abschlusspräsentation 
 
 ### Recap & Herausforderungen 
-Wir sind mit den Erfahrungen aus dem Bereichen ePost, SwissSign, E-Voting und 4 neuen Gspänlis zusammengekommen und haben uns überlegt wie ein möglicher Lösungsansatz für E-Collecting aussehen kann. In einem ersten Schritt haben wir uns auf die wertvolle Expertise E-Voting Team gestützt aus der Kryptographie, mit dem Ziel ein Lösungsansatz zu finden für E-Collecting mit Stimmgeheiniss. Wir haben das Thema sehr spannend gefunden, wir aber beschlossen haben dies nicht im Hackathon weiterzuverfpolgen. So sind wir zum jetzigen Lösungsansatz gekommen, wie ein möglicher Lösungsansatz für E-Collecting sein könnte. Dahinter ist viel mehr, wir zeigen euch jetzt einfach ein Snippet aus dem Big Picture, damit ihr seht was wir meinen. 
+Wir sind mit den Erfahrungen aus dem Bereichen ePost, SwissSign, E-Voting und 4 neuen Gspänlis zusammengekommen und haben uns überlegt wie ein möglicher Lösungsansatz für E-Collecting aussehen kann. In einem ersten Schritt haben wir uns auf die wertvolle Expertise E-Voting Team gestützt aus der Kryptographie, mit dem Ziel ein Lösungsansatz zu finden für E-Collecting mit einem möglichst hohen Stimmgeheiniss, aber einer einfachen Lösung. Wir haben das Thema sehr spannend gefunden, aber beschlossen dies Thema  nicht im Hackathon weiterzuverfpolgen. So sind wir zum jetzigen Lösungsansatz gekommen, wie ein möglicher Lösungsansatz für E-Collecting sein könnte. Dahinter ist viel mehr, wir zeigen euch jetzt einfach ein Snippet aus dem Big Picture, damit ihr seht was wir meinen. 
 
 ### Prototyp / Demo 
 #### Grundkonzept
