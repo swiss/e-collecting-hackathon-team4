@@ -26,13 +26,6 @@ Dabei liegt unser Fokus auf einer einfachen, nachvollziehbaren und barrierefreie
 - Wie könnte eine E-Collecting-Customer-Journey aussehen, die sicher und nutzerfreundlich ist, und die das Vertrauen der Bevölkerung gewinnt? 
 - Wie können wir eine praktikable Lösung finden, die Teilnahmegeheimnis und Verifizierbarkeit gewährleistet? Können wir die Erfahrungen der Post aus Projekten wie SwissSign, E-Voting und ePost nutzen, um eine solche Lösung zu finden? 
 
-  
-## Documentation and Diagrams
-
-
-### Flowchart: High-level Process (First Example)
-
-*An overall process flow showing the main steps and system/actor interactions for ordering a pizza online via a delivery website, including software, infrastructure, and handoff to the restaurant and delivery driver.*
 
 ## Topics addressed
 
@@ -42,10 +35,10 @@ Dabei liegt unser Fokus auf einer einfachen, nachvollziehbaren und barrierefreie
 | 2 | *Zugang zu aktuellen Informationen über die eingereichten Unterstützungsbekundungen* <br> Hier könnten die Capabilities von ePost genutzt werden. |
 | 3 | *Zuschreibung der Unterstützungsbekundungen an Komitees und Sammelunternehmen* <br> Hier könnten die Capabilities von ePost genutzt werden. |
 | 4 | *Unterbreitung von Argumenten der Komitees via E-Collecting* <br> Hier könnten die Capabilities von ePost genutzt werden.|
-| 5 | *Ausschluss unrechtmässiger Unterstützungsbekundungen* <br> Hier kann das Know How von E-Voting genutzt werden.|
+| 5 | *Ausschluss unrechtmässiger Unterstützungsbekundungen* <br> Durch die Qualified Electronic Signature deutlich stärker erreich als bisher.|
 | 6 | *Verhinderung unterschlagener Unterstützungsbekundungen* <br> Hier kann das Know How von E-Voting genutzt werden.|
-| 7 | *Wahrung des Stimmgeheimnisses* <br> Gemeinsam definieren welche Stufe E-Collecting erreichen sollte. Hier kann das Know How von E-Voting genutzt werden.|
-| 8 | *Integration mit dem papierbasierten Prozess* <br> Gemeinsam definieren welche Stufe E-Collecting erreichen sollte. Hier kann das Know How von E-Voting genutzt werden.|
+| 7 | *Wahrung des Stimmgeheimnisses* <br> Status Quo, etwas besser in Strassensammlungs-Situation|
+| 8 | *Integration mit dem papierbasierten Prozess* <br> Unser Prozess benutzt vorhandene Infrastruktur and Datenflüsse|
 | 9 | *Erleichterte Einführung für Gemeinden mit Effizienzgewinn; auf der Grundlage von bestehender Infrastruktur und bestehenden Prozessen* <br> Hier kann das Know How von E-Voting genutzt werden.|
 
 ## Key Strenghts and Weaknesses
