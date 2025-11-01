@@ -177,3 +177,96 @@ Unser Ansatz fügt sich in bisherige Strukturen auf allen Verwaltungsebenen ein,
 ## Vielen Dank an alle aus der Gruppe 4 für die hitzigen Diskussionen, das zusammen Nachdenken und das Erarbeiten eines möglichen Lösungansatzes. 
 
 This software is licensed under a AGPL 3.0 License - see the [LICENSE](LICENSE) file for details. Please feel free to [choose any other](https://choosealicense.com/) [Open Source Initiative approved license](https://opensource.org/licenses) (e.g. a permissive license such as [MIT](https://opensource.org/license/mit)). Other content (e.g. text, images, etc.) is licensed under a [Creative Commons CC BY-SA 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/deed.de). Exceptions are possible in consultation with the organizers.
+
+
+
+
+# Appendix
+
+## Inconsistent Sequence Diagram
+
+
+```mermaid
+---
+title: Overview
+format: revealjs
+include-in-header: 
+  text: |
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+config:
+  theme: 'base'
+  themeVariables:
+    primaryColor: '#ffcc00'
+    primaryTextColor: '#000'
+    primaryBorderColor: '#000'
+    lineColor: '#ff0000'
+    secondaryColor: '#ff0000'
+    tertiaryColor: '#ff0000'
+---
+
+sequenceDiagram
+    actor Komitee as Komitee
+    actor A as Bürger*innen
+    participant Ecolli as E-Collecting<br/>Platform<br/>Bei Kanton
+    critical Einreichung
+        A ->>+ Ecolli: Einreichen von (I)
+        Ecolli ->> Ecolli: Überprüfung
+        Ecolli ->>+ Gem: Neue Initiative (I)
+    end
+    critical Kreieren von Komitee
+        %%%create participant Komitee
+        Komitee ->>+ Ecolli: 
+        Ecolli ->> Ecolli: Überprüfung
+        Ecolli ->> Ecolli: Neue KomiteeId
+        Ecolli ->>+ Komitee: Neue KomiteeId
+    end
+    participant Gem as Gemeinde <br> Einwohner Kontrollsystem
+    critical  E-Collecting Sammlung
+        Komitee ->>+ A: Link(KomiteeId, I)
+        A ->>+ Gem: E-Unterschrift <br>{name, adresse, I, P_k}
+        A ->>+ Ecolli: (KomiteeId, Hash({I, name, adresse, plz}))
+        Gem ->>+ Gem: Überprüfung <br/> (manuell oder automatisch)
+        Gem ->>+ Ecolli: Verifizierte Unterschriften<br>[{ahv, name, adresse, scan, ...}]
+        Ecolli ->>+ Ecolli: Abgleich der Hashes<br>& Auszählen der Komitees
+    end
+
+    %%critical  Physische Sammlung
+    %%    A ->>+ Komitee: Unterschriftsbogen
+    %%    Komitee ->>+ Gemeinde: Unterschriftsbogen
+    %%    %%Ecolli ->>+ Ecolli: Scan & OCR
+    %%    %%Ecolli ->>+ Gem:E-Unterschrift $$(Addr, I)$$ 
+    %%    %%Ecolli ->>+ Gem:Unterschrift Bögen
+    %%    Gem ->>+ Gem: Überprüfung & Scan <br/> (manuell oder automatisch)
+    %%    Gem ->>+ Ecolli: Überprüfte Unterschriften<br>[{ahv, name, adresse, scan, ...}]
+    %%    Gem ->>+ Bundeskanzlei: Unterschriftsbogen 
+    %%    Bundeskanzlei ->>+ Bundeskanzlei: Zählen der Komitee
+
+    %%end
+
+    %%opt Optionale Alternative Physische Sammlung zur Entlastung der Gemeinde
+    %%    A ->>+ Ecolli: Unterschriftsbogen
+    %%    Ecolli ->>+ Ecolli: Scan & OCR
+    %%    Ecolli ->>+ Gem:Hybrid-Unterschrift (Addr, I, Scan) 
+    %%    Gem ->>+ Gem: Überprüfung <br/> (manuell)
+    %%    Gem ->>+ Ecolli: Überprüfte Unterschriften
+    %%end
+
+    opt Später
+        A ->>+ Ecolli: habe ich (I) unterschrieben?
+        activate Ecolli
+        Ecolli ->>+ A: Ja/Nein
+    end
+
+    par Nach Ablauf der Unterschriftenfrist
+        Ecolli ->>+ Ecolli: Unterschriften für (I) löschen
+        Ecolli ->>+ Ecolli: Zerstörung der Unterschriftsbögen
+        Gem ->>+ Gem: Zerstörung der Unterschriftsbögen
+    end
+
+    %%actor G as Gemeinde Mitarbeiter*in
+    %%Alice->>+John: Hello John, how are you?
+    %%Alice->>+John: 
+    %%John-->>-Alice: 
+    %%John-->>-Alice: 
+    
+```
