@@ -33,7 +33,7 @@ Dabei liegt unser Fokus auf einer einfachen, nachvollziehbaren und barrierefreie
 | 1 | *Vom Unterstützungswillen zur Unterstützungsbekundung* <br> Das Teilen eines Links - durch QR-Code oder per Textnachricht - reicht.|
 | 2 | *Zugang zu aktuellen Informationen über die eingereichten Unterstützungsbekundungen* <br> Basierend auf dem EKS. Durch optionale Integration mit ePost wird der Informationsfluss von Tagen auf Minuten beschleunigt. |
 | 3 | *Zuschreibung der Unterstützungsbekundungen an Komitees und Sammelunternehmen* <br> Hash von Name und Adresse wird an e-Collecting Platform gesendet, zusammen mit der Komitee-ID welche den Link ausstellte. Nach Eintreffen der Verifizierung durch die Gemeinden kann Anzahl Übereinstimmungen gezählt werden.|
-| 4 | *Unterbreitung von Argumenten der Komitees via E-Collecting* <br> Komitees können - soweit Weisungskonform - frei eine Website gestalten welche eingebettet angezeigt bevor der Benutzer eine Unterztützungsbekundung abgeben kann.|
+| 4 | *Unterbreitung von Argumenten der Komitees via E-Collecting* <br> Komitees können - soweit Weisungskonform - frei eine Website gestalten welche eingebettet angezeigt wird bevore eine Unterztützungsbekundung abgeben werden kann.|
 | 5 | *Ausschluss unrechtmässiger Unterstützungsbekundungen* <br> Durch die Qualified Electronic Signature deutlich stärker erreicht als bisher.|
 | 6 | *Verhinderung unterschlagener Unterstützungsbekundungen* <br> Hier kann das Know How von E-Voting genutzt werden.|
 | 7 | *Wahrung des Stimmgeheimnisses* <br> Status Quo, etwas besser in Strassensammlungs-Situation|
