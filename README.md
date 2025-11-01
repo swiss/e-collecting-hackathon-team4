@@ -183,7 +183,7 @@ This software is licensed under a AGPL 3.0 License - see the [LICENSE](LICENSE) 
 
 # Appendix
 
-## Inconsistent Sequence Diagram
+## Sequence Diagram (unfinished)
 
 
 ```mermaid
@@ -197,8 +197,8 @@ config:
   theme: 'base'
   themeVariables:
     primaryColor: '#ffcc00'
-    primaryTextColor: '#000'
-    primaryBorderColor: '#000'
+    primaryTextColor: '#fff'
+    primaryBorderColor: '#fff'
     lineColor: '#ff0000'
     secondaryColor: '#ff0000'
     tertiaryColor: '#ff0000'
