@@ -120,7 +120,26 @@ Wir sind mit den Erfahrungen aus dem Bereichen ePost, SwissSign, E-Voting und 4 
 ### Prototyp / Demo 
 #### Grundkonzept
 
-#### User Journex
+```mermaid
+
+flowchart TD
+    B["User GUI"] --> A["E-Collecting Plattform"]
+    C["Gov GUI"] --> A
+    D["Komitee GUI"] --> A
+    C1["Bundeskanzelei"] --> C
+    C2["Kanton"] --> C
+    C3["Gemeinden"] --> C
+    B2["QR Code"] --> B
+    E["Komitee"] --> D
+    F["Bürger:inn"] --> B1["ePost"] & B2 & B3["Klassisch"]
+    B3 --> A
+    B1 --> C3
+    B@{ shape: rounded}
+    C@{ shape: rounded}
+    D@{ shape: rounded}
+```
+    
+#### User Journey
 
 
 ECP
