@@ -226,8 +226,9 @@ sequenceDiagram
         A ->>+ Gem: E-Unterschrift <br>{name, adresse, I, P_k}
         A ->>+ Ecolli: (KomiteeId, Hash({I, name, adresse, plz}))
         Gem ->>+ Gem: Überprüfung <br/> (manuell oder automatisch)
-        Gem ->>+ Ecolli: Verifizierte Unterschriften<br>[{ahv, name, adresse, scan, ...}]
+        Gem ->>+ Ecolli: Verifizierte Unterschriften<br>[{I, ahv, name, adresse, scan, ...}]
         Ecolli ->>+ Ecolli: Abgleich der Hashes<br>& Auszählen der Komitees
+        Ecolli ->>+ Komitee: Anzahl gesammelter Stimmen 
     end
 
     %%critical  Physische Sammlung
