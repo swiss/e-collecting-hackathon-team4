@@ -140,7 +140,7 @@ Unser Ansatz fügt sich in bisherige Strukturen auf allen Verwaltungsebenen ein,
 
 ### Vor- & Nachteile
 #### Vorteil
-- Vollständige Audits möglich, E-Collecting Platform wird hauptsächlich von Komitees benutzt
+- Vollständige Audits möglich
 - Schnell umsetztbar, keine Anpassung von e-CH Standarts oder Einwohner Kontrollsoftware nötig.
 - Setzt auf bereits Bestehendem: Laufende, rechtsgültige Authentifizierung als Grundlage
 - Stimmbürger:in erhält eine Bestätigung in ePost Briefkasten
