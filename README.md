@@ -196,9 +196,9 @@ include-in-header:
 config:
   theme: 'base'
   themeVariables:
-    primaryColor: '#ffcc00'
+    primaryColor: '#cc9900'
     primaryTextColor: '#fff'
-    primaryBorderColor: '#fff'
+    primaryBorderColor: '#ccc'
     lineColor: '#ff0000'
     secondaryColor: '#ff0000'
     tertiaryColor: '#ff0000'
