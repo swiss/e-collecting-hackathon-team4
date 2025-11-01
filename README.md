@@ -34,48 +34,6 @@ Dabei liegt unser Fokus auf einer einfachen, nachvollziehbaren und barrierefreie
 
 *An overall process flow showing the main steps and system/actor interactions for ordering a pizza online via a delivery website, including software, infrastructure, and handoff to the restaurant and delivery driver.*
 
-```mermaid
-
-flowchart TB
- subgraph B1["Bürger:innen"]
-        B1_1["Erhalt Direktlink zur Initiative"]
-        B1_2["Authentifizierung & einlogen"]
-        B1_3["Unterstützungsbeurkundung"]
-  end
- subgraph B2["Komitee"]
-        B2_1["Erarbeiten Initiative"]
-        B2_2["Initiative erfassen"]
-        B2_3["Initiative teilen"]
-  end
- subgraph B3["E-Collecting System"]
-        B3_1["Initiative erfasst"]
-        B3_2["Freigegebene Initiative"]
-        B3_3["Unterstützungsbeurkundung"]
-  end
- subgraph B6["Bundeskanzelei"]
-        B6_1["Initiative prüfen"]
-        B6_2["Initiative freigeben"]
-  end
- subgraph B7["Gemeinde"]
-        B7_1["Stimmregister"]
-        B7_2["Unterstützungsbeurkundung"]
-  end
-    B2_1 --> B2_2
-    B2_2 --> B3_1
-    B3_1 --> B6_1
-    B6_1 --> B6_2
-    B6_2 --> B3_2
-    B3_2 --> B2_3 & B1_3
-    B2_3 --> B1_1
-    B1_1 --> B1_2
-    B1_2 --> B3_2
-    B1_3 --> B3_3
-    B3_3 -- Abgleich --> B7_1
-    B7_1 --> B7_2
-    B7_2 -->|Bescheinigung| B3_3
-    B3_3 --> |Benachrichtigung| B1_3
-
-```
 
 ## Topics addressed
 
