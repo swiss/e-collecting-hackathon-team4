@@ -128,7 +128,7 @@ flowchart TD
 #### Vorteil
 - Schnell umsetztbar, keine Anpassung von e-CH Standarts nötig
 - Setzt auf bereits Bestehendem: Laufende, rechtsgültige Authentifizierung als Grundlage
-- Stimmbürger:in erhält eine Bestätigung in E-Post Briefkasten
+- Stimmbürger:in erhält eine Bestätigung in ePost Briefkasten
 - Fraud bekämpfung zu Doppelunterschriften
 - Integration E-ID ist möglich
 - Komitees haben eine aktuellere Übersicht
