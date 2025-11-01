@@ -1,5 +1,15 @@
-flowchart Übersicht allgemein
+```mermaid
+---
+title: Overview
+format: revealjs
+include-in-header: 
+  text: |
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+---
+
+flowchart TD
     B["User GUI"] --> A["E-Collecting Plattform"]
+    B-->B
     C["Gov GUI"] --> A
     D["Komitee GUI"] --> A
     C1["Bundeskanzelei"] --> C
@@ -13,3 +23,4 @@ flowchart Übersicht allgemein
     B@{ shape: rounded}
     C@{ shape: rounded}
     D@{ shape: rounded}
+```
