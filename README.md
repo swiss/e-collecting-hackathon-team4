@@ -209,7 +209,7 @@ sequenceDiagram
     actor A as Bürger*innen
     participant Ecolli as E-Collecting<br/>Platform<br/>Bei Kanton
     critical Einreichung
-        A ->>+ Ecolli: Einreichen von (I)
+        Komitee ->>+ Ecolli: Einreichen von (I)
         Ecolli ->> Ecolli: Überprüfung
         Ecolli ->>+ Gem: Neue Initiative (I)
     end
@@ -217,8 +217,8 @@ sequenceDiagram
         %%%create participant Komitee
         Komitee ->>+ Ecolli: 
         Ecolli ->> Ecolli: Überprüfung
-        Ecolli ->> Ecolli: Neue KomiteeId
-        Ecolli ->>+ Komitee: Neue KomiteeId
+        Ecolli ->> Ecolli: Neue KomiteeId 
+        Ecolli ->>+ Komitee: Neue KomiteeId {I, KomiteeId}
     end
     participant Gem as Gemeinde <br> Einwohner Kontrollsystem
     critical  E-Collecting Sammlung
@@ -269,4 +269,3 @@ sequenceDiagram
     %%John-->>-Alice: 
     %%John-->>-Alice: 
     
-```
