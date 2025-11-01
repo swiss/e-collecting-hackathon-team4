@@ -1,7 +1,7 @@
 ```mermaid
 ---
 ---
-title: FA icon & Mermaid in Quarto Revealjs
+title: QR Userflow
 format: revealjs
 include-in-header: 
   text: |
