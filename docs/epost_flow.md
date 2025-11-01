@@ -1,5 +1,5 @@
 ```mermaid
----
+------
 title: Overview
 format: revealjs
 include-in-header: 
@@ -19,10 +19,10 @@ config:
 flowchart TD
     A((fa:fa-user Start)) -->|fa:fa-link E-Coll. Platf. Link: <ul align="left"><li>Link zu Initiativ-Infos</li></ul>| B
     B[fa:fa-info Initiativen Details anzeigen] --> C{Will Unterstützen?}
-    C -->|Ja| F[/ fa:fa-location Adresse eingeben /]
+    C -->|Ja| F[/ fa:fa-location Wenn nicht gespeichert:<br>Adresse eingeben /]
     C -->|Nein| A
-    F --> D[fa:fa-scroll Vorlage in E-Post App]
-    D --> G[/fa:fa-pen Unterschreiben/]
+    F --> |In E-Post einloggen| D[fa:fa-scroll Vorlage in E-Post App]
+    D --> G[/fa:fa-pen QS Unterschreiben/]
     G --> Gem[fa:fa-envelope Senden an Gemeinde via E-Post App]
-    Gem --> A 
+    Gem --> A
 ```
