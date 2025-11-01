@@ -127,7 +127,7 @@ config:
 
 flowchart TD
     A((fa:fa-user Start)) -->|<div style="margin: 5pt;"> fa:fa-link E-Coll. Platf. Link</div>| B
-    B[fa:fa-info Initiativen-Details anzeigen] --> C{Will Unterstützen?}
+    B[fa:fa-info Begehren-Details anzeigen] --> C{Will Unterstützen?}
     C -->|<div style="margin: 5pt">Ja| F[/ fa:fa-location Wenn nicht gespeichert:<br>Adresse eingeben /]
     C -->|<div style="margin: 5pt">Nein| E
     F -->|<div style="margin: 5pt">In Post App einloggen| D[fa:fa-scroll Vorlage in Post App]
