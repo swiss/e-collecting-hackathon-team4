@@ -17,12 +17,12 @@ config:
 ---
 
 flowchart TD
-    A((fa:fa-user Start)) -->|fa:fa-link E-Coll. Platf. Link: <ul align="left"><li>Link zu Initiativ-Infos</li></ul>| B
+    A((fa:fa-user Start)) -->|fa:fa-link E-Coll. Platf. Link<br><li>Initiativen Infos| B
     B[fa:fa-info Initiativen Details anzeigen] --> C{Will Unterstützen?}
-    C -->|Ja| F[/ fa:fa-location Wenn nicht gespeichert:<br>Adresse eingeben /]
-    C -->|Nein| A
-    F --> |In E-Post einloggen| D[fa:fa-scroll Vorlage in E-Post App]
-    D --> G[/fa:fa-pen QS Unterschreiben/]
-    G --> Gem[fa:fa-envelope Senden an Gemeinde via E-Post App]
-    Gem --> A
+    C -->|<div style="margin: 5pt">Ja| F[/ fa:fa-location Wenn nicht gespeichert:<br>Adresse eingeben /]
+    C -->|<div style="margin: 5pt">Nein| E
+    F -->|<div style="margin: 5pt">In Post App einloggen| D[fa:fa-scroll Vorlage in Post App]
+    D --> G[/fa:fa-pen QES Unterschreiben/]
+    G --> Gem[fa:fa-envelope Senden an Gemeinde via Post App]
+    Gem --> E((Ende))
 ```
