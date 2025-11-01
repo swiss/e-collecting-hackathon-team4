@@ -133,18 +133,20 @@ flowchart TD
 
 ### Vor- & Nachteile
 #### Vorteil
-- Setzt auf bereits Bestehendem
 - Schnell umsetztbar
+- Setzt auf bereits Bestehendem
 - Stimmbürger:in erhält eine Bestätigung
 - Fraud bekämpfung zu Doppelunterschriften
 - Komitee hat eine aktuelle Übersicht
-- Integration E-ID ist möglich 
+- Integration E-ID ist möglich
 
 #### Nachteil 
 - Die Gemeinde muss an die ePost angebunden sein
+- Kaum Wahrung des Stimmgeheimnisses (Äquivalent, bis leicht verbessert im Vergleich mit bisherigem Verfahren)
 
 #### Herausforderungen des Lösungsansatz  
 - Der Stimmbürger:in muss den digitalen Briefkasten der Post aktiviert haben
+- Um grösstmögliche Entlastung der Gemeinden zu realisieren ist eine Integrierung in das EKS nötig
 
 ## Vielen Dank an alle aus der Gruppe 4 für die hitzigen Diskussionen, das zusammen Nachdenken und das Erarbeiten eines möglichen Lösungansatzes. 
 
