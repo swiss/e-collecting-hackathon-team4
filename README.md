@@ -31,7 +31,7 @@ Dabei liegt unser Fokus auf einer einfachen, nachvollziehbaren und barrierefreie
 | Topic | (How) is it addressed? |
 | -| ------- |
 | 1 | *Vom Unterstützungswillen zur Unterstützungsbekundung* <br> Das Teilen eines Links - durch QR-Code oder per Textnachricht - reicht.|
-| 2 | *Zugang zu aktuellen Informationen über die eingereichten Unterstützungsbekundungen* <br> Basierend auf dem EKS, durch mögliche Integration wird der Informationsfluss von Tagen zu Minuten beschleunigt |
+| 2 | *Zugang zu aktuellen Informationen über die eingereichten Unterstützungsbekundungen* <br> Basierend auf dem EKS. Durch optionale Integration mit ePost wird der Informationsfluss von Tagen auf Minuten beschleunigt. |
 | 3 | *Zuschreibung der Unterstützungsbekundungen an Komitees und Sammelunternehmen* <br> Hash von Name und Adresse wird an e-Collecting Platform gesendet, zusammen mit der Komitee-ID welche den Link ausstellte. Nach Eintreffen der Verifizierung durch die Gemeinden kann Anzahl Übereinstimmungen gezählt werden.|
 | 4 | *Unterbreitung von Argumenten der Komitees via E-Collecting* <br> Hier könnten die Capabilities von ePost genutzt werden.|
 | 5 | *Ausschluss unrechtmässiger Unterstützungsbekundungen* <br> Durch die Qualified Electronic Signature deutlich stärker erreicht als bisher.|
@@ -136,12 +136,12 @@ flowchart TD
     Gem --> E((Ende))
 ```
 
-
-
+Unser Ansatz fügt sich in bisherige Strukturen auf allen Verwaltungsebenen ein, für Verwaltungen und EKS Hersteller ändert sich nur so viel wie sie wollen.
 
 ### Vor- & Nachteile
 #### Vorteil
-- Schnell umsetztbar, keine Anpassung von e-CH Standarts nötig: Unser Ansatz fügt sich in bisherige Strukturen auf allen Verwaltungsebenen ein.
+- Vollständige Audits möglich, E-Collecting Platform wird hauptsächlich von Komitees benutzt
+- Schnell umsetztbar, keine Anpassung von e-CH Standarts oder Einwohner Kontrollsoftware nötig.
 - Setzt auf bereits Bestehendem: Laufende, rechtsgültige Authentifizierung als Grundlage
 - Stimmbürger:in erhält eine Bestätigung in ePost Briefkasten
 - Fraud bekämpfung zu Doppelunterschriften
@@ -149,6 +149,7 @@ flowchart TD
 - Einfach erweiterbar und in Zukünftige, komplexere Lösungen integrierbar
 - Komitees haben eine aktuellere Übersicht
 - Schlechte Anreize der Komitees werden partiell dadurch reduziert, dass nur gültige Stimmen zu ihrem Kontingent Zählen
+
 
 #### Nachteil
 - Die Gemeinde muss an die ePost angebunden sein
