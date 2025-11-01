@@ -133,12 +133,12 @@ flowchart TD
 
 ### Vor- & Nachteile
 #### Vorteil
-- Schnell umsetztbar
-- Setzt auf bereits Bestehendem
+- Schnell umsetztbar, keine anpassung von e-CH Standarts nötig
+- Setzt auf bereits Bestehendem: Laufende, rechtsgültige Authentifizierung als Grundlage
 - Stimmbürger:in erhält eine Bestätigung
 - Fraud bekämpfung zu Doppelunterschriften
-- Komitee hat eine aktuelle Übersicht
 - Integration E-ID ist möglich
+- Initiativen-Komitee hat eine aktuellere Übersicht
 
 #### Nachteil 
 - Die Gemeinde muss an die ePost angebunden sein
