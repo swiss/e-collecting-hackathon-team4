@@ -32,7 +32,7 @@ Dabei liegt unser Fokus auf einer einfachen, nachvollziehbaren und barrierefreie
 | -| ------- |
 | 1 | *Vom Unterstützungswillen zur Unterstützungsbekundung* <br> Das Teilen eines Links - durch QR-Code oder per Textnachricht - reicht.|
 | 2 | *Zugang zu aktuellen Informationen über die eingereichten Unterstützungsbekundungen* <br> Basierend auf dem EKS, durch mögliche Integration wird der Informationsfluss von Tagen zu Minuten beschleunigt |
-| 3 | *Zuschreibung der Unterstützungsbekundungen an Komitees und Sammelunternehmen* <br> Hash von Name und Adresse wird an e-Collecting Platform gesendet, zusammen mit der Komitee-ID. Nach Eintreffen der Verifizierung der Gemeinde kann dies gezählt werden. |
+| 3 | *Zuschreibung der Unterstützungsbekundungen an Komitees und Sammelunternehmen* <br> Hash von Name und Adresse wird an e-Collecting Platform gesendet, zusammen mit der Komitee-ID welche den Link ausstellte. Nach Eintreffen der Verifizierung durch die Gemeinden kann Anzahl Übereinstimmungen gezählt werden.|
 | 4 | *Unterbreitung von Argumenten der Komitees via E-Collecting* <br> Hier könnten die Capabilities von ePost genutzt werden.|
 | 5 | *Ausschluss unrechtmässiger Unterstützungsbekundungen* <br> Durch die Qualified Electronic Signature deutlich stärker erreicht als bisher.|
 | 6 | *Verhinderung unterschlagener Unterstützungsbekundungen* <br> Hier kann das Know How von E-Voting genutzt werden.|
@@ -148,6 +148,7 @@ flowchart TD
 - Integration E-ID ist möglich
 - Einfach erweiterbar und in Zukünftige, komplexere Lösungen integrierbar
 - Komitees haben eine aktuellere Übersicht
+- Schlechte Anreize der Komitees werden partiell dadurch reduziert, dass nur gültige Stimmen zu ihrem Kontingent Zählen
 
 #### Nachteil
 - Die Gemeinde muss an die ePost angebunden sein
