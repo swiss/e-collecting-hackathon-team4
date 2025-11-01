@@ -100,11 +100,6 @@ flowchart TD
 #### User Journey
 
 
-ECP
-- Hält die Daten der physisch eingetroffenen Unterschirftsbögen
-- Hält die Daten die nötig sind, um diese den Komitees 
-
-
 
 ### Vor- & Nachteile
 #### Vorteil
