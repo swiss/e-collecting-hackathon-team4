@@ -137,6 +137,8 @@ flowchart TD
 ```
 [Präsentation.pdf](https://github.com/user-attachments/files/23283506/Prasentation.pdf)
 
+<object data="https://github.com/user-attachments/files/23283506/Prasentation.pdf" width="1000" height="1000" type='application/pdf'/> 
+
 Unser Ansatz fügt sich in bisherige Strukturen auf allen Verwaltungsebenen ein, für Verwaltungen und EKS Hersteller ändert sich nur so viel wie sie wollen.
 
 ### Vor- & Nachteile
