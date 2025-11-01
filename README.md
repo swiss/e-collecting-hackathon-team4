@@ -38,6 +38,34 @@ Dabei liegt unser Fokus auf einer einfachen, nachvollziehbaren und barrierefreie
 <img style="height: 80vh; display: block; margin-left: auto; margin-right: auto" src="https://github.com/swiss/e-collecting-hackathon-team4/blob/main/docs/post_flow.png">
 </div>
 
+```mermaid
+---
+title: Overview
+format: revealjs
+include-in-header: 
+  text: |
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+config:
+  theme: 'base'
+  themeVariables:
+    primaryColor: '#ffcc00'
+    primaryTextColor: '#000'
+    primaryBorderColor: '#ff0000'
+    lineColor: '#ffcc00'
+    secondaryColor: '#ccc'
+    tertiaryColor: '#000'
+---
+
+flowchart TD
+    A((fa:fa-user Start)) -->|<div style="margin: 5pt;"> fa:fa-link E-Coll. Platf. Link</div>| B
+    B[fa:fa-info Initiativen-Details anzeigen] --> C{Will Unterstützen?}
+    C -->|<div style="margin: 5pt">Ja| F[/ fa:fa-location Wenn nicht gespeichert:<br>Adresse eingeben /]
+    C -->|<div style="margin: 5pt">Nein| E
+    F -->|<div style="margin: 5pt">In Post App einloggen| D[fa:fa-scroll Vorlage in Post App]
+    D --> G[/fa:fa-pen QES Unterschreiben/]
+    G --> Gem[fa:fa-envelope Senden an Gemeinde via Post App]
+    Gem --> E((Ende))
+```
 
 ## Topics addressed
 
