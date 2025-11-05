@@ -76,6 +76,7 @@ Please read [CONTRIBUTING.md](/CONTRIBUTING.md) for details on our code of condu
 - Leonardo Moretti
 - Lukas Erni
 - Audhild Høgåsen
+- Florian Moser
 
 ## Finale Abschlusspräsentation 
 
