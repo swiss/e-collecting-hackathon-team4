@@ -19,6 +19,7 @@ Amina Bouzar, Jörg Scchorr, Marcel Eichmüller, Roman Riesen, Leonardo Moretti,
    - [Phase 4](#phase-4)
    - [Phase 5](#phase-5)
    - [Phase 6](#phase-6)
+   - [Finale Abschlusspräsentation](#finale-abschlusspräsentation)
 3. [Fazit](#fazit)
 
 ---
@@ -97,7 +98,7 @@ Als Identifikation & Authentifikation ist es für uns keine Diskussion, dass die
 ---
 
 ### Finale Abschlusspräsentation
-Schaue dir unsere Abschlusspräsentation an: 
+Schaue dir unsere Abschlusspräsentation an: Finale Präsentation README.md
 
 ---
 
