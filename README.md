@@ -96,6 +96,11 @@ Als Identifikation & Authentifikation ist es für uns keine Diskussion, dass die
 
 ---
 
+### Finale Abschlusspräsentation
+Schaue dir unsere Abschlusspräsentation an: 
+
+---
+
 ## Fazit
 Die Phasen sollen unsere Diskussion strukturieren und transparent darlegen, was unsere Gedanken waren, bis wir zum vorgestellten Lösungsansatz gekommen sind. Daraus schliessen wir folgende Merkmale die für uns Goals and Requirements für E-Collecting ist.
 
