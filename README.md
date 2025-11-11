@@ -98,7 +98,7 @@ Als Identifikation & Authentifikation ist es für uns keine Diskussion, dass die
 ---
 
 ### Finale Abschlusspräsentation
-Schaue dir unsere Abschlusspräsentation an: Finale Präsentation README.md
+Schaue dir unsere Abschlusspräsentation an: docs > Finale Präsentation README.md
 
 ---
 
