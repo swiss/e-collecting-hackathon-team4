@@ -79,6 +79,7 @@ Unser Ansatz fügt sich in bisherige Strukturen auf allen Verwaltungsebenen ein,
 #### Vorteil
 - Vollständige Audits möglich
 - Schnell umsetztbar, keine Anpassung von e-CH Standarts oder Einwohner Kontrollsoftware nötig.
+- Dank einer QES Unterschrift müsste das Recht nicht 
 - Setzt auf bereits Bestehendem: Laufende, rechtsgültige Authentifizierung als Grundlage
 - Stimmbürger:in erhält eine Bestätigung in ePost Briefkasten
 - Fraud bekämpfung zu Doppelunterschriften
