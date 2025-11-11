@@ -89,13 +89,13 @@ Unser Ansatz fügt sich in bisherige Strukturen auf allen Verwaltungsebenen ein,
 
 #### Nachteil
 - Die Gemeinde muss an die ePost angebunden sein
-- Kaum Wahrung des Stimmgeheimnisses (Äquivalent, bis leicht verbessert im Vergleich mit bisherigem Verfahren)
+- Teilweise Wahrung des Stimmgeheimnisses (verbessert im Vergleich mit bisherigem pyhsichen Verfahren)
 
 #### Herausforderungen des Lösungsansatz  
 - Der Stimmbürger:in muss den digitalen Briefkasten der Post aktiviert haben
 - Um grösstmögliche Entlastung der Gemeinden zu realisieren ist eine Integrierung in das EKS nötig
 
-## Vielen Dank an alle aus der Gruppe 4 für die hitzigen Diskussionen, das zusammen Nachdenken und das Erarbeiten eines möglichen Lösungansatzes. 
+## Vielen Dank an alle aus der Gruppe 4 für die Diskussionen, das zusammen Nachdenken und das Erarbeiten eines möglichen Lösungansatzes. 
 
 This software is licensed under a AGPL 3.0 License - see the [LICENSE](LICENSE) file for details. Please feel free to [choose any other](https://choosealicense.com/) [Open Source Initiative approved license](https://opensource.org/licenses) (e.g. a permissive license such as [MIT](https://opensource.org/license/mit)). Other content (e.g. text, images, etc.) is licensed under a [Creative Commons CC BY-SA 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/deed.de). Exceptions are possible in consultation with the organizers.
 
